@@ -1,0 +1,22 @@
+1 - Create Login table
+
+create table login(card_no varchar(20),pin varchar(5));
+
+2 - create Signup table
+
+create table signup(name varchar(25),father_name varchar(15),date varchar(30),month varchar(10),year varchar(5),gender varchar(7),email varchar(30), marital varchar(10), address varchar(20),city varchar(20),pincode varchar(10), state varchar(15),form_no varchar(10));
+
+3 - create another table with name signup2
+
+create table signup2(religion varchar(15), category varchar(15),income varchar(15),education varchar(15),occupation varchar(15),pan_no varchar(15),aadhar_no varchar(20), senior varchar(5), existing varchar(5),form_no varchar(10));
+
+4 - create another table with name signup3
+
+create table signup3(account_type varchar(30), card_no varchar(25),pin varchar(5), service_required varchar(100),form_no varchar(10));
+
+5 - create table bank
+
+create table bank(pin varchar(10), deposit varchar(15), withdraw varchar(15), balance varchar(15)); 
+
+
+
